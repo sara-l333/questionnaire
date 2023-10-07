@@ -21,6 +21,10 @@ If I were writing a palindrome function in Python, I would utilize string indexi
 In order to check if s is a palindrome, I would check if s == s[::-1], which
 essentially checks if s is equal to the reverse of s.
 
+This would be beneficial for two reasons: 1. It would requires fewer lines of code, 
+thereby improving readability and clarity and 2. It would allow for one iteration
+over the string s instead of two, saving time.
+
 b. Compilation instructions: 
 
 I installed the following libraries to import into my Python code:
